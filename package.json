@@ -1,0 +1,29 @@
+{
+  "name": "@birdman_jp/dollar-request",
+  "version": "1.0.3",
+  "description": "基于axios的http模块封装",
+  "main": "lib/RequestGuard.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "rimraf lib && npx babel src -d lib"
+  },
+  "keywords": [
+    "dollattech",
+    "axios",
+    "request"
+  ],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/cli": "^7.12.8",
+    "@babel/core": "^7.12.9",
+    "@babel/plugin-proposal-class-properties": "^7.12.1",
+    "@babel/polyfill": "^7.12.1",
+    "@babel/preset-env": "^7.12.7",
+    "axios": "^0.21.0",
+    "axios-miniprogram-adapter": "^0.3.2",
+    "lodash": "^4.17.20",
+    "rimraf": "^3.0.2"
+  },
+  "dependencies": {}
+}
