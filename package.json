@@ -1,6 +1,6 @@
 {
   "name": "@birdman_jp/dollar-request",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "基于axios的http模块封装",
   "main": "lib/RequestGuard.js",
   "scripts": {
@@ -12,6 +12,11 @@
     "axios",
     "request"
   ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/onlinbirdman/dollar-request"
+  },
+  "homepage": "https://github.com/onlinebirdman/dollar-request#readme",
   "author": "",
   "license": "ISC",
   "devDependencies": {
