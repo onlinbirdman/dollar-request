@@ -113,8 +113,8 @@ export default class DollarRequest {
     // 内置拦截器
     _request (config) {
         const options = this.initOptions.options || {}
-        const guard = new RequestGuard('uni', options.NODE_ENV, this.initOptions.options.whiteList)
-        guard.check(config)
+        this.guard = this.guard || new RequestGuard('uni', options.NODE_ENV, this.initOptions.options.whiteList)
+        this.guard.check(config)
         return config
     }
 

@@ -1,6 +1,6 @@
 {
   "name": "@birdman_jp/dollar-request",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "基于axios的http模块封装",
   "main": "lib/RequestGuard.js",
   "scripts": {
